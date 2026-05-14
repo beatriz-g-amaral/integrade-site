@@ -1,0 +1,41 @@
+#history {
+    padding: 100px 8%;
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.history-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.history-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    background: rgba(255, 169, 0, 0.15);
+    color: var(--primary);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+    border: 1px solid rgba(255, 169, 0, 0.3);
+}
+
+#history h2 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    color: #fff;
+}
+
+#history p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--text-dim);
+    margin-bottom: 24px;
+}
