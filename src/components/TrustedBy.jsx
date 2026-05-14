@@ -2,7 +2,7 @@ import React from 'react';
 import './TrustedBy.css';
 
 const TrustedBy = () => {
-  const logos = import.meta.glob('../assets/clientes/*.{png,jpg,jpeg,svg}', { eager: true });
+  const logos = import.meta.glob('../assets/Clientes/*.{png,jpg,jpeg,svg}', { eager: true });
   const logoList = Object.values(logos).map((logo) => logo.default);
 
   return (
